@@ -47,12 +47,21 @@ div p {
     transition: width 0.05s ease-out, height 0.05s ease-out, margin 0.05s ease-out;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     div {
-        width: 80%;
-        margin: 50px auto;
+        width: 90%;
+        margin: 30px auto;
     }
     div p {
         font-size: 1.6em;
+    }
+    .clickme {
+        width: 120px;
+        height: 40px;
+        font-size: 1em;
+    }
+    .clickme:active {
+        width: 116px;
+        height: 36px;
     }
 }
